@@ -1,0 +1,10 @@
+{
+ "viewport": { "width": 800, "height": 500 },
+ "earnFirst": [2, 3, 8, 16, 21, 44],
+ "shots": [
+  { "file": "1-checklist-guide-sources.jpg", "hash": "#trophy=20", "scrollToTrophy": 14 },
+  { "file": "2-roadmap-to-platinum.jpg", "hash": "#view=roadmap&trophy=34" },
+  { "file": "3-missable-watchlist.jpg", "hash": "#view=missables&trophy=33" },
+  { "file": "4-spoiler-shield-story-filter.jpg", "hash": "#kind=story&trophy=3", "spoilerShield": true, "scrollToTrophy": 2 }
+ ]
+}

@@ -1,0 +1,591 @@
+{
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "55 trophies: 1 platinum, 2 gold, 6 silver, 46 bronze",
+ "honesty": "Written on launch day. Names, descriptions, grades and counters are the published list. Everything else is tagged: OFFICIAL (stated by the list or by Rockstar), PRECEDENT (how earlier Rockstar games handled the same kind of trophy) or VERIFY (a plan to test in game, not a confirmed fact). No location or step is presented as fact without a source.",
+ "sources": {
+  "exo": { "name": "Exophase", "what": "GTA VI PS5 trophy list: names, descriptions, grades, progress counters", "url": "https://www.exophase.com/" },
+  "psnp": { "name": "PSNProfiles", "what": "GTA VI PS5 trophy list, cross-checked against Exophase", "url": "https://psnprofiles.com/" },
+  "rs": { "name": "Rockstar Games", "what": "Official GTA VI site: characters and the regions of Leonida", "url": "https://www.rockstargames.com/VI" },
+  "gtav": { "name": "PowerPyx GTA V guide", "what": "Series precedent: how GTA V handled 100%, strangers, heists and mission replay", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+  "rdr2": { "name": "PowerPyx RDR2 guide", "what": "Rockstar precedent: missable side strands and chapter-locked content", "url": "https://www.powerpyx.com/red-dead-redemption-2-trophy-guide-roadmap/" }
+ },
+ "roadmap": [
+  { "stage": 1, "title": "Play the story, spoiler shield on", "plan": "Twelve trophies come from the story alone: the opening mission Gone Fishing, Chapters 1 to 4, six named missions and the final mission. Play at your own pace and keep one manual save per chapter. Stop before the final mission and do stage 2 first." },
+  { "stage": 2, "title": "Safety stop before the final mission", "plan": "Eight trophies depend on a partner being with you or are worded as riddles. Nobody has confirmed whether they survive the ending, so earn or attempt each one before you start the final mission, then finish the story." },
+  { "stage": 3, "title": "Strangers and contacts", "plan": "Finish the last mission for Andy, Kenton, Billy, Randy and Tyrone, 8 stranger strands in total, Bret's unique animal and Cal's fishing challenge. Pick the patient option whenever a stranger offers a choice." },
+  { "stage": 4, "title": "Scores and street crime", "plan": "One undetected jewelry store, 5 bank vaults, an armored truck, one illegal operation per gang (9), $250,000 laundered, and the two combat feats. The cash from here pays for stage 6." },
+  { "stage": 5, "title": "Activities", "plan": "Sample all 9 activity types, then grind the long ones: 42 Shooting Range golds, 14 Top Fun drone race locations, 20 different race wins, one arcade game and 250 stunts." },
+  { "stage": 6, "title": "Collectibles and exploration", "plan": "Sweep Leonida region by region so each visit counts several ways: 52 areas, 18 meditation spots, 100 WAiNK It locations, 3 card sets, 100 vehicles, 10 Scooter Bros registrations, 8 garages, $100,000 spent and 50 challenges." },
+  { "stage": 7, "title": "100% and the platinum", "plan": "Open the in-game completion checklist, clear what is left for A Long Road, and the platinum Vice Got a Price! unlocks with the 54th trophy." }
+ ],
+ "trophies": [
+  {
+   "id": 1, "name": "Vice Got a Price!", "description": "Congratulations! You're a Leonida Legend.", "grade": "platinum",
+   "kind": "completion", "stage": 7, "count": 54, "missable": "safe",
+   "missableWhy": "It only asks for the other 54, so it is as missable as the riskiest of them. Clear the stage 2 list before the finale.",
+   "guide": "The platinum is automatic: it pops the moment your 54th trophy does. Treat this tracker's progress bar as its counter and follow the seven roadmap stages in order, because the only real danger to it is a missed trophy from the stage 2 safety stop.",
+   "steps": [
+    ["OFFICIAL", "The list holds 54 other trophies: 2 gold, 6 silver, 46 bronze. None of them is an online trophy.", "exo"],
+    ["PRECEDENT", "GTA V also awarded its platinum for collecting every other trophy, with no extra requirement.", "gtav"],
+    ["VERIFY", "If the bar here reads 54/55 and nothing unlocks, sync trophies from the PS5 trophy menu.", "psnp"]
+   ]
+  },
+  {
+   "id": 2, "name": "Just Like Paradise", "description": "Complete Gone Fishing.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission, which the story cannot skip.",
+   "guide": "Your first trophy. Gone Fishing is the mission the description names, and the title hints it opens the game, so simply play until its completion screen. Use it to learn the controls rather than rushing: aiming, driving and the phone come back in every later stage.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing the mission Gone Fishing.", "exo"],
+    ["PRECEDENT", "GTA V gave a bronze for its prologue in the same way, and it could not be missed.", "gtav"]
+   ]
+  },
+  {
+   "id": 3, "name": "Paradise Lost", "description": "Complete Chapter 1.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Chapter completion is mandatory progress.",
+   "guide": "Awarded when Chapter 1 closes. Before you take the mission that ends the chapter, make a manual save in a fresh slot: if a later riddle trophy turns out to be chapter-locked, that save is your way back without a second playthrough.",
+   "steps": [
+    ["OFFICIAL", "The story is split into chapters; this one unlocks at the end of Chapter 1.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2 locked some side content to specific chapters, so a save per chapter is cheap insurance.", "rdr2"]
+   ]
+  },
+  {
+   "id": 4, "name": "T**s Ass Drug Money", "description": "Complete Chapter 2.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Chapter completion is mandatory progress.",
+   "guide": "Awarded when Chapter 2 closes (the asterisks are part of the official name). Keep the one-save-per-chapter habit, and start working the stage 2 list whenever your partner is riding with you in free roam.",
+   "steps": [
+    ["OFFICIAL", "Unlocks at the end of Chapter 2. PlayStation prints the name with asterisks.", "psnp"],
+    ["PRECEDENT", "Chapter-end saves protected chapter-locked extras in Red Dead Redemption 2.", "rdr2"]
+   ]
+  },
+  {
+   "id": 5, "name": "Vice City, Baby!", "description": "Complete Chapter 3.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Chapter completion is mandatory progress.",
+   "guide": "Awarded when Chapter 3 closes. The name suggests the story has moved into Vice City by now, which is a good moment to try the Ocean Beach cocktail and the showroom trophy from the open-world list while you are in town.",
+   "steps": [
+    ["OFFICIAL", "Unlocks at the end of Chapter 3.", "exo"],
+    ["OFFICIAL", "Vice City is one of the regions of Leonida that Rockstar's site presents.", "rs"]
+   ]
+  },
+  {
+   "id": 6, "name": "Top Of The World, Ma", "description": "Complete Chapter 4.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Chapter completion is mandatory progress.",
+   "guide": "Awarded when Chapter 4 closes. The list names no Chapter 5, only a final mission, so treat the end of Chapter 4 as your warning: make a permanent manual save and run the whole stage 2 safety stop before going further.",
+   "steps": [
+    ["OFFICIAL", "The list has trophies for Chapters 1 to 4 and then one for the final mission, nothing between.", "exo"],
+    ["VERIFY", "Whether free roam with both leads stays open after the ending is not confirmed by any source yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 7, "name": "You Gotta Know When to Get Off", "description": "Complete the final mission.", "grade": "gold",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "It cannot be missed itself, but it is the point of no return for the stage 2 list.",
+   "guide": "One of only two golds, earned by finishing the story. It is safe in itself; the risk is what it may close behind you. Do not start the final mission until every stage 2 trophy is ticked here, and keep the save you made after Chapter 4.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing the final mission. Grade: gold.", "exo"],
+    ["PRECEDENT", "GTA V's ending choice could remove a playable character from free roam for good.", "gtav"],
+    ["VERIFY", "If the ending offers a choice, save first so each outcome can be replayed.", "gtav"]
+   ]
+  },
+  {
+   "id": 8, "name": "Trust", "description": "Complete Breakfast Run.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete the mission called Breakfast Run. Named-mission trophies need no medal or score in the description, so a plain pass is enough; do not restart for a better result on account of the trophy.",
+   "steps": [
+    ["OFFICIAL", "The only condition printed is completing Breakfast Run.", "exo"],
+    ["PRECEDENT", "GTA V's named-mission trophies also unlocked on any pass, medals being a separate trophy.", "gtav"]
+   ]
+  },
+  {
+   "id": 9, "name": "Break the Bank", "description": "Complete The Cartel Heist.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete The Cartel Heist. If the heist lets you pick an approach or a crew, any choice should count because the description only asks for completion; note which approach you took in case a later challenge wants the other one.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing The Cartel Heist.", "exo"],
+    ["PRECEDENT", "GTA V heists offered two approaches and their trophies accepted either.", "gtav"]
+   ]
+  },
+  {
+   "id": 10, "name": "Family Matters", "description": "Complete Child's Play.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete the mission Child's Play. Nothing beyond finishing it is asked. With the spoiler shield on, this row stays masked until you tick it, so you will not read mission names ahead of time.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing Child's Play.", "psnp"]
+   ]
+  },
+  {
+   "id": 11, "name": "DWNFALL", "description": "Complete Headliners.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete the mission Headliners. The trophy name is spelled DWNFALL on PlayStation; this tracker keeps that spelling so it matches your console's list when you compare.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing Headliners.", "exo"]
+   ]
+  },
+  {
+   "id": 12, "name": "Hi-Jacked", "description": "Complete VCIA Takedown.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete VCIA Takedown. VCIA is also where Catch Me If You Can asks for an unscheduled departure, so look around during this mission and try to leave the airport in an aircraft you were not handed.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing VCIA Takedown.", "exo"],
+    ["VERIFY", "The mission may or may not be what triggers Catch Me If You Can; test it here first.", "psnp"]
+   ]
+  },
+  {
+   "id": 13, "name": "Snow Storm", "description": "Complete Operation Savage Glory.", "grade": "bronze",
+   "kind": "story", "stage": 1, "missable": "safe",
+   "missableWhy": "Tied to completing a named story mission.",
+   "guide": "Complete Operation Savage Glory. The name sounds military, and Challenging Tank talks about Rhinos, the series' tank, so if armor appears in this mission try to get inside one before the mission ends.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on completing Operation Savage Glory.", "exo"],
+    ["PRECEDENT", "The Rhino has been the tank's name since GTA III and was drivable in GTA V.", "gtav"]
+   ]
+  },
+  {
+   "id": 14, "name": "A Long Road", "description": "Attain 100% Completion.", "grade": "gold",
+   "kind": "completion", "stage": 7, "count": 100, "missable": "watch",
+   "missableWhy": "100% inherits any missable piece of side content. Unconfirmed which pieces count.",
+   "guide": "The second gold and the last real trophy on the road. Completion is a percentage the game tracks itself, so read its checklist in the pause menu instead of guessing. Most of stages 3 to 6 should feed it; leave it for last and mop up only what the checklist still shows open.",
+   "steps": [
+    ["OFFICIAL", "PlayStation tracks this trophy as a percentage up to 100.", "exo"],
+    ["PRECEDENT", "GTA V's 100% needed the story, a set number of strangers, hobbies and random events, but not every collectible.", "gtav"],
+    ["VERIFY", "Check the in-game checklist before collecting everything; the exact parts are not published yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 15, "name": "Cunning Stunts", "description": "Complete 250 Stunts.", "grade": "silver",
+   "kind": "collectibles", "stage": 5, "count": 250, "missable": "safe",
+   "missableWhy": "A running total in free roam.",
+   "guide": "A long counter: 250 stunts. The description says stunts, not stunt jumps, so expect several kinds of trick to count. Watch the progress percentage on the trophy after a session to learn which ones move it, then repeat the cheapest one.",
+   "steps": [
+    ["OFFICIAL", "Counter of 250 on the trophy.", "exo"],
+    ["PRECEDENT", "GTA V counted fixed stunt jumps and under-bridge flights as separate lists, each done once.", "gtav"],
+    ["VERIFY", "Whether repeating the same stunt counts again is untested.", "psnp"]
+   ]
+  },
+  {
+   "id": 16, "name": "Master of None", "description": "Try each type of activity once.", "grade": "bronze",
+   "kind": "activities", "stage": 5, "count": 9, "missable": "safe",
+   "missableWhy": "Only asks you to try each type once.",
+   "guide": "Start each of the 9 activity types once; the wording is try, so winning should not matter. Other trophies already name several types you will meet anyway: shooting range, drone race, races, fishing, arcade, bowling, meditation and hunting.",
+   "steps": [
+    ["OFFICIAL", "Counter of 9 activity types.", "exo"],
+    ["OFFICIAL", "Other trophies on the list name shooting ranges, drone races, races, fishing, arcade games, bowling and meditation.", "psnp"],
+    ["VERIFY", "The ninth type and whether quitting early still counts need testing.", "psnp"]
+   ]
+  },
+  {
+   "id": 17, "name": "The Shootist", "description": "Earn a gold medal in all Shooting Range challenges.", "grade": "silver",
+   "kind": "activities", "stage": 5, "count": 42, "missable": "safe",
+   "missableWhy": "Range challenges are replayable activities.",
+   "guide": "Gold in all 42 Shooting Range challenges, the biggest skill check on the list. Work one weapon class at a time so the recoil stays in your hands, restart the moment a run drops below gold pace, and come back after the story when your weapons and stats are at their best.",
+   "steps": [
+    ["OFFICIAL", "Counter of 42 challenges, gold medal in each.", "exo"],
+    ["PRECEDENT", "GTA V's range golds became much easier with a maxed shooting stat and the right character.", "gtav"]
+   ]
+  },
+  {
+   "id": 18, "name": "Top Fun", "description": "Win a Top Fun Drone Race at every location.", "grade": "bronze",
+   "kind": "activities", "stage": 5, "count": 14, "missable": "safe",
+   "missableWhy": "Race locations are replayable activities.",
+   "guide": "Win one drone race at each of the 14 Top Fun locations. First place is required, once per location. Learn each course with a slow lap, then race; note the locations you have won in this tracker's note box because the trophy only shows a number.",
+   "steps": [
+    ["OFFICIAL", "Counter of 14 locations; the word used is win.", "exo"],
+    ["VERIFY", "Where the 14 locations are is not published by any source yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 19, "name": "Earn Cash, Not Kudos", "description": "Win 20 different races.", "grade": "bronze",
+   "kind": "activities", "stage": 5, "count": 20, "missable": "safe",
+   "missableWhy": "A running total of distinct races.",
+   "guide": "Win 20 different races. Different is the key word: repeating one easy race will not count twice. Take each new race as it appears on the map and move on after a win; the drone races may or may not share this counter.",
+   "steps": [
+    ["OFFICIAL", "Counter of 20, each a different race.", "exo"],
+    ["VERIFY", "Whether Top Fun drone races count toward the 20 is untested.", "psnp"]
+   ]
+  },
+  {
+   "id": 20, "name": "Baited My Tackle", "description": "Beat Cal in a fishing challenge.", "grade": "bronze",
+   "kind": "activities", "stage": 3, "missable": "watch",
+   "missableWhy": "Needs a named character. If Cal leaves the story at some point, the challenge leaves with him.",
+   "guide": "Out-fish Cal once. Rockstar introduces Cal Hampton as Jason's friend in the Leonida Keys, so expect the challenge to come from him there. Do it as soon as it is offered rather than saving it for the cleanup.",
+   "steps": [
+    ["OFFICIAL", "Beat Cal in a fishing challenge, once.", "exo"],
+    ["OFFICIAL", "Cal Hampton is a friend of Jason's who lives in the Leonida Keys.", "rs"],
+    ["PRECEDENT", "Red Dead Redemption 2 tied companion activities to chapters and they could be lost.", "rdr2"]
+   ]
+  },
+  {
+   "id": 21, "name": "Stick Fiddler", "description": "Complete an arcade game.", "grade": "bronze",
+   "kind": "activities", "stage": 5, "missable": "safe",
+   "missableWhy": "A one-off activity in free roam.",
+   "guide": "Play one arcade game through to its end. Complete is the word, so a quick try that ends in a game over may not be enough: pick the shortest cabinet you find and see it through.",
+   "steps": [
+    ["OFFICIAL", "Complete an arcade game, once.", "exo"],
+    ["VERIFY", "Which cabinet is shortest is not documented yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 22, "name": "Road to Rehabilitation", "description": "Complete the final mission for Andy.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "A character strand. Earlier Rockstar games let some strands fail or expire.",
+   "guide": "See Andy's missions through to the last one. Each time you finish one of his jobs, wait for the next marker or phone call instead of assuming the strand is over, and avoid harming him in free roam.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on the final mission for Andy.", "exo"],
+    ["PRECEDENT", "GTA V stranger strands unlocked their next part only after time passed or other missions were done.", "gtav"]
+   ]
+  },
+  {
+   "id": 23, "name": "This Was No Boat Accident", "description": "Complete the final mission for Kenton.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "A character strand. Earlier Rockstar games let some strands fail or expire.",
+   "guide": "Finish every mission Kenton gives until his last. The trophy name points at boats, so keep a boat handy on the coast. If a mission of his offers a choice, save before answering.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on the final mission for Kenton.", "exo"],
+    ["PRECEDENT", "Some Red Dead Redemption 2 stranger strands were lost if left past a chapter.", "rdr2"]
+   ]
+  },
+  {
+   "id": 24, "name": "The Lone Rider", "description": "Complete the final mission for Billy.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "A character strand. Earlier Rockstar games let some strands fail or expire.",
+   "guide": "Complete Billy's strand to its final mission. The name suggests riding, so bring a bike you are comfortable on. Count it in this tracker as one of the 8 strands for Strangers & Freaks if the game lists him as a stranger.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on the final mission for Billy.", "exo"],
+    ["VERIFY", "Whether Billy's strand counts toward Strangers & Freaks is not confirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 25, "name": "Strangers & Freaks", "description": "Complete 8 mission strands for strangers across the state of Leonida.", "grade": "silver",
+   "kind": "strangers", "stage": 3, "count": 8, "missable": "watch",
+   "missableWhy": "If fewer than 8 strands stay open after a failure or the ending, the count cannot be reached.",
+   "guide": "Complete 8 whole stranger strands, not 8 missions. The five named finals on this list (Andy, Kenton, Billy, Randy, Tyrone) are the obvious first five if they count. Strangers are spread across the state, so pick new ones up during the stage 6 region sweep.",
+   "steps": [
+    ["OFFICIAL", "Counter of 8 strands, across the state of Leonida.", "exo"],
+    ["OFFICIAL", "Leonida's regions on Rockstar's site: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga.", "rs"],
+    ["PRECEDENT", "GTA V required only some of its stranger strands for 100%, and a few could be ended early by killing the stranger.", "gtav"]
+   ]
+  },
+  {
+   "id": 26, "name": "Supply & Demand", "description": "Complete the final mission for Randy.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "A character strand. Earlier Rockstar games let some strands fail or expire.",
+   "guide": "Work through Randy's missions to the last. The name hints at trade or deliveries; expect timed runs, so repair or swap your vehicle before each one and let the strand's next step arrive by phone.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on the final mission for Randy.", "exo"],
+    ["PRECEDENT", "GTA V stranger strands unlocked their next part only after time passed.", "gtav"]
+   ]
+  },
+  {
+   "id": 27, "name": "Spin On This!", "description": "Complete the final mission for Tyrone.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "A character strand. Earlier Rockstar games let some strands fail or expire.",
+   "guide": "Finish Tyrone's strand. As with the other four named contacts, the trophy pays out only on the final mission, so keep checking the map after each job until no new marker comes.",
+   "steps": [
+    ["OFFICIAL", "Unlocks on the final mission for Tyrone.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2 strangers often needed days of in-game time between parts.", "rdr2"]
+   ]
+  },
+  {
+   "id": 28, "name": "Positive Mental Attitude", "description": "Meditate at every spot across Leonida.", "grade": "bronze",
+   "kind": "collectibles", "stage": 6, "count": 18, "missable": "safe",
+   "missableWhy": "Fixed spots in the open world.",
+   "guide": "Meditate at all 18 spots. They are spread across Leonida, so fold them into the region sweep that also earns The Goodtime State. Tick off the spots per region in the note box here, since the trophy shows only a number.",
+   "steps": [
+    ["OFFICIAL", "Counter of 18 spots, across Leonida.", "exo"],
+    ["PRECEDENT", "GTA V's yoga was a hobby that also counted toward 100%.", "gtav"],
+    ["VERIFY", "No map of the 18 spots has been published yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 29, "name": "Fair Game", "description": "Hunt a unique animal for Bret.", "grade": "bronze",
+   "kind": "strangers", "stage": 3, "missable": "watch",
+   "missableWhy": "Needs a named character to hand out the hunt.",
+   "guide": "Bret asks for a unique animal: find Bret, take the request and bring down that exact animal, once. Unique suggests a one-of-a-kind target with its own marker, not ordinary wildlife. Carry a long-range weapon into the wilds.",
+   "steps": [
+    ["OFFICIAL", "Hunt a unique animal for Bret, once.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2's legendary animals were single marked targets with their own territory.", "rdr2"],
+    ["VERIFY", "Where Bret is found is not documented yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 30, "name": "Don't Touch My Deck", "description": "Complete 3 Collectible Card sets.", "grade": "silver",
+   "kind": "collectibles", "stage": 6, "count": 3, "missable": "safe",
+   "missableWhy": "Collectibles in the open world.",
+   "guide": "Finish 3 full sets of collectible cards. You need whole sets, so choose the three smallest or most clustered sets from the in-game collection screen and ignore the rest until those are done.",
+   "steps": [
+    ["OFFICIAL", "Counter of 3 complete sets.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2's cigarette cards came in sets and could also be bought in packs.", "rdr2"],
+    ["VERIFY", "Whether cards can be bought here is unknown.", "psnp"]
+   ]
+  },
+  {
+   "id": 31, "name": "You WAiNKer!", "description": "WAiNK It at 100 locations.", "grade": "silver",
+   "kind": "collectibles", "stage": 6, "count": 100, "missable": "safe",
+   "missableWhy": "A running total across the open world.",
+   "guide": "Use WAiNK It at 100 different locations. The count is by location, so spread it over the whole map during the region sweep: every new district, landmark and business is a candidate. Check the trophy's progress after the first few to confirm what counts.",
+   "steps": [
+    ["OFFICIAL", "Counter of 100 locations.", "exo"],
+    ["VERIFY", "What a WAiNK It location is and how it is marked needs confirming in game.", "psnp"]
+   ]
+  },
+  {
+   "id": 32, "name": "One Last Thing", "description": "Complete 50 Challenges.", "grade": "bronze",
+   "kind": "activities", "stage": 6, "count": 50, "missable": "safe",
+   "missableWhy": "A running total.",
+   "guide": "Complete any 50 challenges. Read the in-game challenge list early and let it steer how you play the other stages: many will fall while you chase the range golds, races and robberies, so this one should arrive on its own.",
+   "steps": [
+    ["OFFICIAL", "Counter of 50 challenges.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2 ran ranked challenge lists that advanced through normal play.", "rdr2"]
+   ]
+  },
+  {
+   "id": 33, "name": "Hot Together", "description": "Lose a 4 star Wanted Level with your partner and escape the heat.", "grade": "bronze",
+   "kind": "world", "stage": 2, "missable": "high",
+   "missableWhy": "Needs your partner beside you. If the ending separates Jason and Lucia, it is gone.",
+   "guide": "With your partner along, reach 4 stars and then lose them. Build the heat somewhere with an escape you know, such as a tunnel, a waterway or a garage, break the line of sight and wait the stars out. Do this before the final mission.",
+   "steps": [
+    ["OFFICIAL", "4-star Wanted Level, with your partner, then escape.", "exo"],
+    ["OFFICIAL", "The two leads are Jason Duval and Lucia Caminos.", "rs"],
+    ["PRECEDENT", "GTA V's ending could remove a lead from free roam.", "gtav"]
+   ]
+  },
+  {
+   "id": 34, "name": "Retail Therapy", "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.", "grade": "bronze",
+   "kind": "world", "stage": 2, "count": 3, "missable": "high",
+   "missableWhy": "Needs your partner beside you. If the ending separates Jason and Lucia, it is gone.",
+   "guide": "Rob three shops in a row with your partner while staying wanted the whole time. Scout three shops on one street first, park facing your exit, and drive straight from one to the next so the stars never clear. Do this before the final mission.",
+   "steps": [
+    ["OFFICIAL", "3 shops back-to-back, with your partner, Wanted Level never lost.", "exo"],
+    ["PRECEDENT", "GTA V let you rob convenience stores in free roam and the stars cleared quickly if you hid.", "gtav"]
+   ]
+  },
+  {
+   "id": 35, "name": "Whip It Good", "description": "Discover 100 vehicles.", "grade": "bronze",
+   "kind": "collectibles", "stage": 6, "count": 100, "missable": "safe",
+   "missableWhy": "A running total in free roam.",
+   "guide": "Discover 100 vehicles. Discover suggests a catalogue that fills in when you first get into or drive a model. Swap rides constantly from the first hour: cars, bikes, boats and aircraft are each a fresh entry.",
+   "steps": [
+    ["OFFICIAL", "Counter of 100 vehicles.", "exo"],
+    ["VERIFY", "Whether entering, driving or photographing a vehicle is what discovers it needs testing.", "psnp"]
+   ]
+  },
+  {
+   "id": 36, "name": "Gunslinger", "description": "Take down 5 enemies in a single use of Combat Focus.", "grade": "bronze",
+   "kind": "world", "stage": 4, "count": 5, "missable": "safe",
+   "missableWhy": "A feat you can retry in any firefight.",
+   "guide": "Drop 5 enemies inside one activation of Combat Focus. Find a group of at least five, such as a gang operation, open the fight from cover, trigger the ability with a full meter and take headshots left to right.",
+   "steps": [
+    ["OFFICIAL", "5 enemies in a single use of Combat Focus.", "exo"],
+    ["PRECEDENT", "GTA V's special abilities ran on a meter that upgrades made last longer.", "gtav"]
+   ]
+  },
+  {
+   "id": 37, "name": "Catch Me If You Can", "description": "Make an unscheduled departure at VCIA.", "grade": "bronze",
+   "kind": "world", "stage": 2, "missable": "watch",
+   "missableWhy": "Worded as a riddle and tied to one place; could be a mission moment.",
+   "guide": "Leave the VCIA airport in a way the timetable did not plan: the natural reading is taking off in an aircraft you took from the airfield. Try it during VCIA Takedown and again in free roam before the finale.",
+   "steps": [
+    ["OFFICIAL", "Make an unscheduled departure at VCIA.", "exo"],
+    ["PRECEDENT", "Stealing a plane from the airport was a free-roam staple of GTA V.", "gtav"],
+    ["VERIFY", "The exact trigger is unconfirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 38, "name": "Challenging Tank", "description": "Kinda hot in these Rhinos.", "grade": "bronze",
+   "kind": "world", "stage": 2, "missable": "watch",
+   "missableWhy": "A riddle; the Rhino may only be reachable at certain points.",
+   "guide": "The description is a riddle about being inside Rhinos, the series' tank. Plan to get into one and stay in it, and since it says Rhinos, try more than one. Look for armor during the military-sounding story mission and at any base in free roam.",
+   "steps": [
+    ["OFFICIAL", "The only text is the riddle: Kinda hot in these Rhinos.", "exo"],
+    ["PRECEDENT", "The Rhino tank sat at the military base in GTA V and could be stolen.", "gtav"],
+    ["VERIFY", "What exactly must be done in the tank is unconfirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 39, "name": "Sneakthief", "description": "Rob a jewelry store without being detected.", "grade": "bronze",
+   "kind": "world", "stage": 4, "missable": "safe",
+   "missableWhy": "A free-roam score you can retry.",
+   "guide": "Rob one jewelry store with no detection. Case the store first, go at a quiet hour, use silent tools and leave by a different way than you entered. If an alarm trips, drop the attempt and come back to try again later.",
+   "steps": [
+    ["OFFICIAL", "Rob a jewelry store without being detected, once.", "exo"],
+    ["PRECEDENT", "GTA V's jewel store job had a quiet approach built around avoiding the alarm.", "gtav"]
+   ]
+  },
+  {
+   "id": 40, "name": "Maximum Withdrawal", "description": "Rob 5 Bank Vaults and escape.", "grade": "silver",
+   "kind": "world", "stage": 4, "count": 5, "missable": "safe",
+   "missableWhy": "A running total of free-roam scores.",
+   "guide": "Rob 5 bank vaults and get away each time. The escape is part of the condition, so plan the exit before the entry: park a fast getaway car out of sight and lose the stars before celebrating. Spread the five across the stage 6 sweep.",
+   "steps": [
+    ["OFFICIAL", "Counter of 5 vaults; each needs an escape.", "exo"],
+    ["VERIFY", "Whether the same bank counts twice is untested.", "psnp"]
+   ]
+  },
+  {
+   "id": 41, "name": "A Classic Blitz Play", "description": "Rob an Armored Truck and escape.", "grade": "bronze",
+   "kind": "world", "stage": 4, "missable": "safe",
+   "missableWhy": "A free-roam event you can retry.",
+   "guide": "Hit one armored truck and escape. Stop it, open the rear, grab the cash and leave at once. Trucks tend to appear on main roads, so take the chance when one drives past.",
+   "steps": [
+    ["OFFICIAL", "Rob an Armored Truck and escape, once.", "exo"],
+    ["PRECEDENT", "GTA V's security vans were random events opened by shooting or blowing the back doors.", "gtav"]
+   ]
+  },
+  {
+   "id": 42, "name": "The Goodtime State", "description": "Explore all of Leonida.", "grade": "bronze",
+   "kind": "collectibles", "stage": 6, "count": 52, "missable": "safe",
+   "missableWhy": "Map discovery in free roam.",
+   "guide": "Uncover all 52 areas of the map. Rockstar names six regions, so sweep one region per session: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga. An aircraft clears the wide areas fastest.",
+   "steps": [
+    ["OFFICIAL", "Counter of 52 areas.", "exo"],
+    ["OFFICIAL", "The six regions are presented on Rockstar's GTA VI site.", "rs"],
+    ["PRECEDENT", "GTA V's map was uncovered by travelling through it, and flying did the work quickly.", "gtav"]
+   ]
+  },
+  {
+   "id": 43, "name": "Pest Control", "description": "Rob an Illegal Operation belonging to each gang.", "grade": "bronze",
+   "kind": "world", "stage": 4, "count": 9, "missable": "safe",
+   "missableWhy": "A free-roam total, one per gang.",
+   "guide": "Rob one illegal operation from each of the 9 gangs. One per gang is enough, so do not farm a single gang. These groups of enemies are also the right place to earn Gunslinger.",
+   "steps": [
+    ["OFFICIAL", "Counter of 9: one operation per gang.", "exo"],
+    ["VERIFY", "The nine gangs and their territories are not listed by a source yet.", "psnp"]
+   ]
+  },
+  {
+   "id": 44, "name": "In The Beginning…", "description": "Enjoy a cocktail with a view on Ocean Beach.", "grade": "bronze",
+   "kind": "world", "stage": 6, "missable": "watch",
+   "missableWhy": "A single place and action; the name hints at an early moment.",
+   "guide": "Order a cocktail at a spot with a view on Ocean Beach in Vice City. Walk the beachfront bars and rooftop terraces and buy a drink at each until it unlocks. Try it on your first visit to Vice City.",
+   "steps": [
+    ["OFFICIAL", "A cocktail with a view on Ocean Beach.", "exo"],
+    ["OFFICIAL", "Vice City and its beaches feature on Rockstar's site.", "rs"],
+    ["VERIFY", "Which bar triggers it is not confirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 45, "name": "Capital Offense", "description": "Smash your way out of a vehicle showroom in classic style.", "grade": "bronze",
+   "kind": "world", "stage": 6, "missable": "watch",
+   "missableWhy": "A riddle about one kind of place; could be a mission moment.",
+   "guide": "Get into a car inside a vehicle showroom and drive it out through the front window. Classic style reads as a nod to earlier games in the series, so use a display car and leave through the glass.",
+   "steps": [
+    ["OFFICIAL", "Smash your way out of a vehicle showroom in classic style.", "exo"],
+    ["PRECEDENT", "GTA V had a story scene of a car driven out through a dealership window.", "gtav"],
+    ["VERIFY", "Which showroom, and whether any car works, is unconfirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 46, "name": "Let’s Go Bowling", "description": "Follow-through at the Kolt & Associates' bowling alley.", "grade": "bronze",
+   "kind": "activities", "stage": 2, "missable": "watch",
+   "missableWhy": "Names one specific place that may only open for a mission.",
+   "guide": "Bowl at the alley inside Kolt & Associates. A bowling alley inside a company building suggests it opens through the story, so when a mission takes you there, play a frame before you leave, then return later if it stays open.",
+   "steps": [
+    ["OFFICIAL", "Follow-through at the Kolt & Associates' bowling alley.", "exo"],
+    ["PRECEDENT", "GTA V kept its sports hobbies, such as golf and tennis, open in free roam once unlocked.", "gtav"],
+    ["VERIFY", "Whether one throw, a strike or a full game is needed is unconfirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 47, "name": "Personal Best", "description": "A partnership with mass appeal.", "grade": "bronze",
+   "kind": "world", "stage": 2, "missable": "watch",
+   "missableWhy": "A riddle about a partnership; do it while both leads are available.",
+   "guide": "A pure riddle. Partnership points at doing something with your partner, and mass plus personal best reads like a gym or weight-training session. Try working out with your partner before the finale and note what you tested in the box below.",
+   "steps": [
+    ["OFFICIAL", "The only text is the riddle: A partnership with mass appeal.", "exo"],
+    ["VERIFY", "The gym reading is a guess from the wording, not a confirmed solution.", "psnp"]
+   ]
+  },
+  {
+   "id": 48, "name": "Actions Speak Louder", "description": "Choices made (for better or worse).", "grade": "bronze",
+   "kind": "world", "stage": 2, "count": 500, "missable": "watch",
+   "missableWhy": "A count of 500 choices; if only story choices count, a finished story could leave you short.",
+   "guide": "PlayStation tracks 500 choices. Answer every prompt the game gives you, in missions and with people on the street, rather than walking past, and start early so the total builds through the whole story. Either answer should count.",
+   "steps": [
+    ["OFFICIAL", "Counter of 500. For better or worse implies either choice counts.", "exo"],
+    ["PRECEDENT", "Red Dead Redemption 2 let you greet or antagonize almost anyone, a constant stream of small choices.", "rdr2"],
+    ["VERIFY", "Which prompts count as a choice is unconfirmed; watch the trophy's percentage.", "psnp"]
+   ]
+  },
+  {
+   "id": 49, "name": "Bad Luck, I Guess", "description": "Second time's the charm.", "grade": "bronze",
+   "kind": "world", "stage": 2, "missable": "watch",
+   "missableWhy": "A riddle with no stated trigger.",
+   "guide": "A riddle about succeeding on the second attempt. Readings worth testing: pass a mission or activity on the retry after failing it once, or win a game of chance on the second go. Note here what you tried.",
+   "steps": [
+    ["OFFICIAL", "The only text is the riddle: Second time's the charm.", "exo"],
+    ["VERIFY", "No source has confirmed the trigger; both readings above are guesses.", "psnp"]
+   ]
+  },
+  {
+   "id": 50, "name": "The Truth Is Out There", "description": "What the hell just happened?", "grade": "bronze",
+   "kind": "world", "stage": 6, "missable": "watch",
+   "missableWhy": "A riddle; likely a secret encounter that could have conditions.",
+   "guide": "The name is a classic UFO catchphrase and the description is a shocked reaction, so expect a strange encounter somewhere remote. Explore the swamps and the mountain park at night during the region sweep.",
+   "steps": [
+    ["OFFICIAL", "The only text is the reaction: What the hell just happened?", "exo"],
+    ["PRECEDENT", "GTA V hid UFOs that appeared only under set conditions.", "gtav"],
+    ["VERIFY", "Place and conditions are unconfirmed.", "psnp"]
+   ]
+  },
+  {
+   "id": 51, "name": "Ten Pin", "description": "Bowl 'em over with a melee drive-by.", "grade": "bronze",
+   "kind": "world", "stage": 4, "missable": "safe",
+   "missableWhy": "A feat you can retry at any time.",
+   "guide": "Knock people down with a melee swing from a moving vehicle. A motorbike with a melee weapon equipped is the natural tool. Ten Pin hints at a number, so keep going past the first hit, up to ten in one ride.",
+   "steps": [
+    ["OFFICIAL", "Bowl 'em over with a melee drive-by.", "exo"],
+    ["VERIFY", "Whether one hit or ten is needed is unconfirmed; the trophy shows no counter.", "psnp"]
+   ]
+  },
+  {
+   "id": 52, "name": "Dime on the Dollar", "description": "Earn $250,000 laundering Marked Bills through your contacts.", "grade": "bronze",
+   "kind": "world", "stage": 4, "count": 250000, "missable": "safe",
+   "missableWhy": "A running money total.",
+   "guide": "Earn $250,000 by laundering marked bills through contacts. The total is what you receive after the cut, so the vaults and the armored truck feed it. Bank every marked haul through a contact rather than letting it sit.",
+   "steps": [
+    ["OFFICIAL", "$250,000 earned from laundering Marked Bills through contacts.", "exo"],
+    ["VERIFY", "Which scores pay in marked bills, and each contact's cut, need confirming in game.", "psnp"]
+   ]
+  },
+  {
+   "id": 53, "name": "Treat Yo Self", "description": "Spend $100,000 across all shops.", "grade": "bronze",
+   "kind": "world", "stage": 6, "count": 100000, "missable": "safe",
+   "missableWhy": "A running spending total.",
+   "guide": "Spend $100,000 in shops in total. Buy what the other trophies need anyway, such as weapons and ammunition for the range, then top up with clothes. Check whether the garages for Little Boxes move this counter before buying extras.",
+   "steps": [
+    ["OFFICIAL", "$100,000 spent across all shops.", "exo"],
+    ["VERIFY", "Whether property purchases count as shop spending is untested.", "psnp"]
+   ]
+  },
+  {
+   "id": 54, "name": "Little Boxes", "description": "Purchase all garage properties.", "grade": "bronze",
+   "kind": "collectibles", "stage": 6, "count": 8, "missable": "safe",
+   "missableWhy": "Purchases stay available in free roam.",
+   "guide": "Buy all 8 garage properties. It is a money gate, so leave it until the stage 4 scores have paid out. Buy each garage as the region sweep passes it and store the vehicles you want for Scooter Bros there.",
+   "steps": [
+    ["OFFICIAL", "Counter of 8 garage properties.", "exo"],
+    ["PRECEDENT", "GTA V sold garages and other properties from signs at each site.", "gtav"]
+   ]
+  },
+  {
+   "id": 55, "name": "On the Spot", "description": "Register 10 vehicles to the Scooter Bros app.", "grade": "bronze",
+   "kind": "collectibles", "stage": 6, "count": 10, "missable": "safe",
+   "missableWhy": "A running total in free roam.",
+   "guide": "Register 10 vehicles in the Scooter Bros app on the in-game phone. Open the app once it becomes available, read how a vehicle is registered and add ten. Cheap street vehicles should count as well as costly ones.",
+   "steps": [
+    ["OFFICIAL", "Counter of 10 vehicles registered to the Scooter Bros app.", "exo"],
+    ["VERIFY", "How the app registers a vehicle is not documented by a source yet.", "psnp"]
+   ]
+  }
+ ]
+}

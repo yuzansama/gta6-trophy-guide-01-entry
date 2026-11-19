@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leonida Legend: GTA VI trophy guide and tracker (offline)</title>
+<meta name="description" content="Offline guide and tracker for all 55 PS5 trophies of Grand Theft Auto VI: official names, descriptions and grades, saved checklist, filters, spoiler shield, export and import, a roadmap to the platinum, missable flags and a cited guide for every trophy.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<header id="top-bar">
+  <h1 id="app-title">Leonida Legend <small>GTA VI · all 55 PS5 trophies · offline guide + tracker</small></h1>
+  <div id="platinum-progress" role="progressbar" aria-label="Trophies earned, saved in this browser" aria-valuemin="0" aria-valuemax="55">
+    <div id="platinum-progress-bar"></div>
+    <span id="platinum-progress-text">0 / 55 earned</span>
+  </div>
+  <label id="spoiler-shield" title="Hides the names and descriptions of story trophies until you tick them as earned">
+    <input type="checkbox" id="spoiler-shield-toggle"> Spoiler shield <b id="spoiler-shield-state">off</b>
+  </label>
+  <button type="button" id="export-progress" title="Download your saved progress, notes and counters as a JSON file">Export</button>
+  <button type="button" id="import-progress" title="Load a progress file you exported earlier">Import</button>
+  <input type="file" id="import-progress-file" accept="application/json,.json" hidden>
+</header>
+<nav id="views-and-filters" aria-label="Views and filters">
+  <div id="view-tabs" role="tablist">
+    <button type="button" role="tab" id="tab-checklist" data-view="checklist">Checklist</button>
+    <button type="button" role="tab" id="tab-roadmap" data-view="roadmap" title="Roadmap to the platinum">Roadmap</button>
+    <button type="button" role="tab" id="tab-missables" data-view="missables">Missables</button>
+    <button type="button" role="tab" id="tab-sources" data-view="sources">Sources</button>
+  </div>
+  <input type="search" id="trophy-search" placeholder="Search trophies" aria-label="Search trophies">
+  <span id="grade-tally" title="Earned per grade: platinum, gold, silver, bronze"></span>
+  <div id="kind-filters" role="group" aria-label="Filter trophies by kind: story, missable, collectibles, activities, online"></div>
+</nav>
+<main id="workspace">
+  <section id="checklist-view" aria-label="Trophy checklist: official name, description and grade">
+    <ol id="trophy-checklist"></ol>
+  </section>
+  <section id="roadmap-view" aria-label="Roadmap to the platinum in seven stages" hidden></section>
+  <section id="missables-view" aria-label="Missable trophies, flagged from the official descriptions" hidden></section>
+  <section id="sources-view" aria-label="Sources every guide cites, and how facts are tagged" hidden></section>
+  <aside id="guide-panel" aria-label="Guide to the selected trophy, with its sources" aria-live="polite"></aside>
+</main>
+<p id="save-status" role="status">Progress is saved in this browser (localStorage). Nothing is sent anywhere: the app makes no network request.</p>
+<noscript>This guide needs JavaScript to track your trophies. The trophy data is in data/trophies.json.</noscript>
+</body>
+</html>
