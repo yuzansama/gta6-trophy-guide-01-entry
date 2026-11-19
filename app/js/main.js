@@ -21,7 +21,7 @@ const app = {
 
   setTrophyEarned(trophyId, earned) {
     setEarned(app.progress, trophyId, earned);
-    autoAwardPlatinum();
+    mirrorPlatinum(trophyId);
     commit('Saved: ' + countEarned(app.progress, app.data.trophies) + ' of 55 earned.');
   },
   setCounter(trophyId, value) {
@@ -48,11 +48,14 @@ const app = {
   },
 };
 
-// The platinum unlocks itself on the console once the other 54 are earned; mirror that here.
-function autoAwardPlatinum() {
+// The platinum unlocks itself on the console once the other 54 are earned; mirror that here in both
+// directions, so unmarking a trophy by mistake also takes the platinum back. The platinum's own button
+// is left alone, otherwise it would flip itself off whenever the other 54 are not done yet.
+function mirrorPlatinum(changedTrophyId) {
   const platinum = app.data.trophies.find((trophy) => trophy.grade === 'platinum');
+  if (changedTrophyId === platinum.id) return;
   const others = app.data.trophies.filter((trophy) => trophy !== platinum);
-  if (others.every((trophy) => isEarned(app.progress, trophy.id))) setEarned(app.progress, platinum.id, true);
+  setEarned(app.progress, platinum.id, others.every((trophy) => isEarned(app.progress, trophy.id)));
 }
 
 function commit(message) {
